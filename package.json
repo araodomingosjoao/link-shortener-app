@@ -1,0 +1,26 @@
+{
+  "name": "link-shortner-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "animsition": "^4.0.2",
+    "axios": "^1.4.0",
+    "bootstrap": "4.1",
+    "jquery": "^3.2.1",
+    "pinia": "^2.1.6",
+    "select2": "^4.1.0-rc.0",
+    "sweetalert": "^2.1.2",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4",
+    "wow": "^0.0.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.1",
+    "vite": "^4.4.9"
+  }
+}
