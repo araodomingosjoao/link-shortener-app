@@ -13,7 +13,7 @@ import Footer from "../components/Footer.vue";
       <Breadcrumb />
       <Statistic />
       <!-- CONTENT-->
-      <slot></slot>
+      <slot class="mb-3"></slot>
       <!-- END CONTENT-->
       <Footer />
     </div>
