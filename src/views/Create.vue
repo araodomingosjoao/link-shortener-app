@@ -43,6 +43,9 @@ const create = async () => {
             router.push( {name: 'home'} );
           }
         });
+      }).catch(error => {
+        status.isLoading = false
+        swal( "Erro ao cadastrar" ,  "A slug informada já existe!" ,  "error" )
       });
   } else {
     errors.originalURL = "Formato invalido, precisa informar uma url";
@@ -62,7 +65,7 @@ const create = async () => {
                 >Voltar</router-link
               >
             </div>
-            <div class="col-md-10">
+            <div class="col-md-12">
               <form
                 method="post"
                 novalidate="novalidate"
