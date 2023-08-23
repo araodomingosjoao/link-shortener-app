@@ -3,15 +3,13 @@ import "./assets/css/font-face.css"
 import "./assets/vendor/font-awesome-4.7/css/font-awesome.min.css"
 import "./assets/vendor/font-awesome-5/css/fontawesome-all.min.css"
 import "./assets/vendor/mdi-font/css/material-design-iconic-font.min.css"
-//CSS
+// CSS
 import "bootstrap/dist/css/bootstrap.css"
 import "animsition/dist/css/animsition.css"
-import "select2/dist/css/select2.css"
 import './assets/css/theme.css'
-//JS
+// JS
 import "./assets/vendor/jquery-3.2.1.min.js"
 import "bootstrap"
-import "select2"
 import "./assets/vendor/animsition/animsition.min.js"
 import "./assets/js/main.js"
 

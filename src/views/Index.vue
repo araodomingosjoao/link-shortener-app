@@ -45,7 +45,12 @@ const filter = reactive({
 const getLinks = async () => {
   status.isLoading = true;
   links.length = 0
-  await axios.get("/links").then((response) => {
+  await axios.get("/links", {
+    params: {
+      sort_by: 'created_at',
+      sort_direction: 'desc'
+    }
+  }).then((response) => {
     console.log(response);
     links = Object.assign(links, response?.data?.data);
     pagination = Object.assign(pagination, response?.data);
