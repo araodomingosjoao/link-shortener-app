@@ -18,7 +18,7 @@
               >
                 <div class="image">
                   <img
-                    src="../assets/images/icon/avatar-01.jpg"
+                    src="../assets/images/avatar-01.jpg"
                     alt="John Doe"
                   />
                 </div>
